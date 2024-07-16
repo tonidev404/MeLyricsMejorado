@@ -1,0 +1,152 @@
+@font-face {
+    font-family: "Mi Metal";
+    src: url(/Fonts/ThirdFont.ttf);
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #1B1C1E;
+}
+#presentation{
+    height: 100vh;
+    width: 100%;
+
+    background: url(Resources/header_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 100000000;
+}
+.filter{
+    width: 100%;
+    height: 100%;
+    background-color: #000000aa;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-header{
+    width: 40%;
+    height: 40%;
+
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+.title-page{
+    font-family: "Mi Metal";
+    font-size: 6vw;
+    color: #eeeeee;
+    letter-spacing: .5vw;
+}
+.description-title{
+    font-family: "Mi Metal";
+    font-size: 1.5vw;
+    color: #eeeeee;
+    letter-spacing: .3vw;
+}
+
+.left{
+    position: absolute;
+    bottom: 10%;
+    color: white;
+    font-size: 3vw;
+
+
+    animation: parpadeo 3s forwards infinite;
+}
+
+
+.buttons{
+ width: 100%;
+ height: 10vh;
+ background-color: #1a0022;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ position: sticky;
+ top: 0;
+ z-index: -1;
+
+ transform: translateY(-10vh);
+ z-index: 10000;
+}
+.ul-buttons{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    margin-right: 15px;
+}
+.view{
+    animation: aparecer 1s forwards;
+}
+
+/* Iconos botones */
+.header-title{
+    font-family: "Mi Metal";
+    font-size: 2vw;
+    color: #eeeeee;
+    letter-spacing: .5vw;
+    margin-left: 15px;
+    text-decoration: none;
+    transition: .5s ease;
+}
+.header-title:hover{
+    color: #e1ff75;
+}
+
+.link{
+    font-size: 1vw;
+    border: 1px solid #e1ff75;
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #e1ff75;
+    margin: 7px;
+    transition: .3s ease;
+}
+.link:hover{
+    font-size: 1.1vw;
+}
+
+.icon{
+    padding-right: 5px;
+}
+
+
+@keyframes parpadeo {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+
+@keyframes aparecer {
+    from{
+
+    }
+    to{
+        transform: translateY(0);
+    }
+}
