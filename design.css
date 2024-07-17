@@ -1,7 +1,9 @@
 @font-face {
     font-family: "Mi Metal";
-    src: url(/Fonts/ThirdFont.ttf);
+    src: url(Resources/Fonts/ThirdFont.ttf);
 }
+
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
 
 
 *{
@@ -47,13 +49,13 @@ body{
     user-select: none;
 }
 .title-page{
-    font-family: "Mi Metal";
+    font-family: "Mi Metal","New Rocker";
     font-size: 6vw;
     color: #eeeeee;
     letter-spacing: .5vw;
 }
 .description-title{
-    font-family: "Mi Metal";
+    font-family: "Mi Metal","New Rocker";
     font-size: 1.5vw;
     color: #eeeeee;
     letter-spacing: .3vw;
