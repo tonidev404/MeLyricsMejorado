@@ -1,9 +1,7 @@
 @font-face {
     font-family: "Mi Metal";
-    src: url(Resources/Fonts/ThirdFont.ttf);
+    src: url(/Fonts/ThirdFont.ttf);
 }
-
-@import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
 
 
 *{
@@ -49,13 +47,13 @@ body{
     user-select: none;
 }
 .title-page{
-    font-family: "Mi Metal","New Rocker";
+    font-family: "Mi Metal";
     font-size: 6vw;
     color: #eeeeee;
     letter-spacing: .5vw;
 }
 .description-title{
-    font-family: "Mi Metal","New Rocker";
+    font-family: "Mi Metal";
     font-size: 1.5vw;
     color: #eeeeee;
     letter-spacing: .3vw;
@@ -78,7 +76,7 @@ body{
  background-color: #1a0022;
  display: flex;
  align-items: center;
- justify-content: center;
+ justify-content: space-between;
  position: sticky;
  top: 0;
  z-index: -1;
@@ -87,7 +85,7 @@ body{
  z-index: 10000;
 }
 .ul-buttons{
-    width: 100%;
+    width: auto;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -111,7 +109,40 @@ body{
 .header-title:hover{
     color: #e1ff75;
 }
-
+.buscador{
+    height: 80%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cancelar{
+    display: none;
+    font-size: 1.5vw;
+    padding: .5vw;
+    color: #eeeeee;
+}
+.lupa{
+    font-size: 1.5vw;
+    padding: .5vw;
+    color: #eeeeee;
+}
+.buscador-input{
+    width: 80%;
+    height: 40%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #eeeeee;
+    color: #eeeeee;
+    font-size: 1.3vw;
+    padding: 5px;
+    transition: .3s ease-in-out;
+}
+.buscador-input:focus{
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #e1ff75;
+}
 .link{
     font-size: 1vw;
     border: 1px solid #e1ff75;
