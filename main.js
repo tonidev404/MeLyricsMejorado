@@ -24,22 +24,22 @@ const observador = new IntersectionObserver(Object =>{
 observador.observe(button);
 
 let input = document.querySelector('.buscador-input');
-let divs = document.querySelectorAll('.div');
+let divs = document.querySelectorAll('.banda');
 
 
 input.addEventListener('keyup', e=>{
-    let value = input.value;
+    let valorInput = input.value;
     console.log()
     divs.forEach(e =>{
-        let valor = e.title;
-        if(value == ""){
-            e.style.display = "Block";
+        let bandaTitulo = e.title;
+        if(valorInput == ""){
+            e.style.display = "Flex";
         }
-        else if(valor.toLowerCase().includes(value.toLowerCase())){
-            e.style.display = "block";
+        else if(bandaTitulo.toLowerCase().includes(valorInput.toLowerCase())){
+            e.style.display = "Flex";
             
         }
-        else{
+        else if(!bandaTitulo.toLowerCase().includes(valorInput.toLowerCase())){
             e.style.display = "none";
         }
     
@@ -51,6 +51,7 @@ let cancelar = document.querySelector('.cancelar')
 
 window.onload = ()=>{
     cancelar.style.display = "none";
+    console.log(divs.length)
 }
 
 input.addEventListener('focus', () =>{
@@ -61,7 +62,4 @@ input.addEventListener('focusout', () =>{
     lupa.style.display = "block";
     cancelar.style.display = "none";
 
-})
-cancelar.addEventListener('click', ()=>{
-    alert('Achooo')
 })

@@ -1,0 +1,42 @@
+.banda[title="lujuria"] > .foto-banda{
+    background: url(https://cdn.wegow.com/media/artists/lujuria/lujuria-1498128597.75.JPG);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+.banda[title="beethoven r"] > .foto-banda{
+    background: url(https://i1.wp.com/www.scienceofnoise.net/wp-content/uploads/2019/11/Beethoven-r-band.jpg);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+.banda[title="baron rojo"] > .foto-banda{
+    background: url(https://estaticos-cdn.prensaiberica.es/clip/be2402c5-6adc-4991-b1f9-f1bf9aa3a9de_alta-libre-aspect-ratio_default_0.jpg);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+.banda[title="obus"] > .foto-banda{
+    background: url(https://imagenes.heraldo.es/files/image_1920_1080/uploads/imagenes/2024/07/22/obus.jpeg);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+.banda[title="saratoga"] > .foto-banda{
+    background: url(https://img.europapress.es/fotoweb/fotonoticia_20190103134156_1200.jpg);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+.banda[title="warcry"] > .foto-banda{
+    background: url(https://www.warcry.es/wc-contenido/uploads/2022/09/warcry-2022.jpg);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+.banda[title="mago de oz"] > .foto-banda{
+    background: url(https://magodeozoficial.com/wp-content/uploads/2022/10/fondo-banner.png);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: 50%;
+}
