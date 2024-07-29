@@ -1,0 +1,14 @@
+/* Lujuria */
+.disco[title="cuentos para mayores"] > .foto-disco{
+    background: url(https://m.media-amazon.com/images/I/6152OGlxKYL._UF894,1000_QL80_.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+/* Obus */
+.disco[title="preparate"] > .foto-disco{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlNYFYwfyuv_6y0qc77q7ykYGxihTNc_YIVg&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}

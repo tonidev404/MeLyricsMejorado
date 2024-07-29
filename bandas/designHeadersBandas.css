@@ -1,0 +1,22 @@
+#presentation[title="lujuria"]{
+    height: 50vh;
+    width: 100%;
+
+    background: url(https://cdn.wegow.com/media/artists/lujuria/lujuria-1498128597.75.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    z-index: 100000000;
+}
+#presentation[title="obus"]{
+    height: 50vh;
+    width: 100%;
+
+    background: url(https://imagenes.heraldo.es/files/image_1920_1080/uploads/imagenes/2024/07/22/obus.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: 50%;
+    z-index: 100000000;
+}

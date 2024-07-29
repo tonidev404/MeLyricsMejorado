@@ -1,0 +1,12 @@
+.cancion[title="va a estallar el obus"] > .foto-cancion{
+    background: url(https://i1.sndcdn.com/artworks-JZyxcJh6yTbd-0-t500x500.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+.cancion[title="callate"] > .foto-cancion{
+    background: url(https://i.discogs.com/M0mcwFqwBXE0jCrcEScmZs1SYQ0udCsKh7KXKWmW980/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYwMDk0/MzEtMTQwODcxOTQz/Ni00NTk1LmpwZWc.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}

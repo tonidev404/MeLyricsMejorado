@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeLyrics - Obus</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="design.css">
+    <link rel="stylesheet" href="designBandas.css">
+    <script src="https://kit.fontawesome.com/5614c09a5a.js" crossorigin="anonymous"></script>
+    <title>MeLyrics - Metal Lyrics</title>
+</head>
+<body>
+    <div id="presentation">
+        <div class="filter">
+            <div class="content-header">
+                <h1 class="title-page">Obus</h1>
+            </div>
+        </div>
+    </div>
+    <header class="buttons">
+        <a href="" class="header-title">
+            MeLyrics
+        </a>
+        <p class="informacion" style="display: none;">No introducir caracteres especiales</p>
+
+        <div class="buscador">
+            <i class="fa-regular fa-circle-question cancelar" ></i>
+            <i class="fa-solid fa-magnifying-glass lupa"></i>
+            <input type="text" class="buscador-input" placeholder="Buscar...">
+        </div>
+        <ul class="ul-buttons">
+            <p class="información">
+
+            </p>
+            <li class="button-li"><a href="" class="link"><i class="fa-solid fa-house icon icon"></i>Home</a></li>
+            <li class="button-li"><a href="" class="link"><i class="fa-solid fa-microphone icon"></i>Bands</a></li>
+            <li class="button-li"><a href="" class="link"><i class="fa-solid fa-phone icon"></i>Contact</a></li>
+        </ul>
+    </header>
+    <main>
+
+    </main>
+    <footer class="page-footer">
+        <div class="redes-sociales">
+            <ul class="ul-rrss">
+                <li><a href="" class="link-rrss"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="" class="link-rrss"><i class="fa-brands fa-x-twitter"></i></a></li>
+                <li><a href="" class="link-rrss"><i class="fa-brands fa-github"></i></a></li>
+            </ul>
+        </div>
+        <div class="contacto">
+            Contacto: <a href="mailto:tonidev404@gmail.com" class="correo">tonidev404@gmail.com</a>
+        </div>
+    </footer>
+</body>
+<script src="main.js"></script>
+
+<!-- Licencia foto fondo header https://creativecommons.org/licenses/by-nd/2.0/  -->
+<!-- https://flickr.com/photos/iggyshoot/16082300310/in/photolist-qv8ZzQ-2cjAoSF-6Jr3b3-hL5SVF-nzLfF2-f3HjbA-8R7EY7-2nzkeye-2inNEfh-2mXTt6s-2hRY9Bz-2oAj1P4-WxkyQh-7un9iZ-VpNPvx-4dVwVU-S8AqvU-8rcnDY-6KstNx-DGXXFU-7H6yhV-SgRvJW-PYDXTb-2jSnXup-2gNqgRh-2hS1EhW-V1EVF9-RMQfyQ-2j8qygJ-8r9dNg-2nwGMV6-8hKEjK-2mf8m5U-5JPuMj-grSHd5-SypSBK-7upTwY-8hKE2z-2nYWN8p-Tj7K7f-2nCKYrc-9hBuhM-pzyoBD-toHytg-2oAYtLw-2g4njve-2inNGsU-2inNDpV-8EB1K-2ofKYbW/ -->
+</html>
+</body>
+</html>
